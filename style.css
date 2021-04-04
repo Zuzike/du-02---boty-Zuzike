@@ -7,6 +7,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
@@ -25,3 +26,65 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.zbozi{
+    width: 670px;
+    height: 440px;
+}
+.vizual{
+    background: linear-gradient(#06d7c1,#50cc49 ) ;
+}
+.popis{
+    border-bottom: 2px solid #06d7c1;
+}
+li{
+    display: inline-block;
+}
+.logo{
+    padding: 30px;
+}
+.akce {
+    padding: 20px 30px;
+    background-color: #f15f42;
+    border-radius: 0.25rem;
+}
+.slogan{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif
+}
+.cena{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    }
+.zaruka{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+.detaily{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.produkt{
+       color:  #959595;
+}
+.parametr{
+    text-transform: uppercase;
+}
+.tlacitko{
+        color: white;
+        font-family:'Rubik', sans-serif;
+        text-transform: uppercase
+    }
